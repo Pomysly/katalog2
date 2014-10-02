@@ -1,7 +1,7 @@
 .navbar-fixed-top.navbar-inverse
   .container
     .navbar-header
-      =link_to "ZT Sport Horses", root_path , id: "logo"
+      =link_to "Pomysły na Prezent", root_path , id: "logo"
     %ul.nav.navbar-nav.pull-right
       - if user_signed_in?
         %li= link_to current_user.email, edit_user_registration_path
